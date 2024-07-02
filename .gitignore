@@ -1,0 +1,17 @@
+# Entorno virtual
+env/
+
+# Archivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración de IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Otros archivos de sistema
+.DS_Store
+Thumbs.db
