@@ -1,94 +1,30 @@
-# Medical Clinic managment and diagnosis assistance web application
+# Proyecto de Gestión de Clínica Médica
 
-This repository is an web application to help a medical clinic with  their day-to-day managment.
-It gives the possibility  for a patient to make an appointment & view his documents (bills, prescriptions, ultrasound-images.etc).
-It also helps the doctors both with their schedules and diagnosis.
-Finally, it presents dashboards giving the admins insights about different & important aspects of managment.
+Este repositorio contiene un proyecto web para la gestión y asistencia de diagnósticos en una clínica médica. Utiliza Django para su desarrollo.
 
-It was made with **love** and **Django~=3.1**.
+## Instrucciones para ejecutar el proyecto
 
-# Steps to run  the project.
-- Clone the project : ``` git clone https://github.com/deadly-panda/clinicApp.git ```
-- Go to the project directory
-- Create a Virtual Environment : ``` python -m venv myVenv ```
-- Activate the virtual environment : ``` source myVenv/bin/activate ```
-- Install requirements : ``` pip install -r requirements.txt ```
-- Migrate : ``` python3 manage.py migrate ```
-- Run the project : ``` python3 manage.py runserver ```
+- Clona el repositorio: `git clone https://github.com/tu-usuario/tu-repositorio.git`
+- Ve al directorio del proyecto: `cd tu-repositorio`
+- Crea un entorno virtual: `python -m venv myvenv`
+- Activa el entorno virtual:
+  - En Windows: `myvenv\Scripts\activate`
+  - En macOS/Linux: `source myvenv/bin/activate`
+- Instala las dependencias: `pip install -r requirements.txt`
+- Realiza las migraciones de la base de datos: `python manage.py migrate`
+- Ejecuta el servidor local: `python manage.py runserver`
 
-- You can also create a superuser to have admin permissions : ``` python3 manage.py createsuperuser ```
+## Funcionalidades del Proyecto
 
+- Gestión de pacientes: citas, documentos médicos, facturas.
+- Gestión de doctores: horarios, diagnósticos, documentos clínicos.
+- Panel de administración: insights sobre la gestión del sistema.
 
-# The Models
-The image below shows the classes, in this case (Django case) the models, used in this web application.
-One should mention the use of django-allauth, an integrated set of Django applications addressing authentication, registration, account management.
+## Capturas de Pantalla
 
-<p align="center">
-  <label style="font-weight: bold;">The models</label>
-  <img src="https://i.imgur.com/3wNuMua.png" height="100%" width="100%" title="models">
-</p> 
+Inserta aquí imágenes representativas del proyecto si es necesario.
 
-# Three types of users
-# Patients
-The patients can easly send an appointment request with the day & time they prefer & also the speciality of the doctor(general medecine, Ophthalmology..), view their prescriptions, bills & pay them, and most importantly have 24/7 access to their documents like x-ray 
-shots or ultrasound images.
+## Contribuciones
 
-<p align="center">
-  <label style="font-weight: bold;">The appointment request is pending : waiting for a doctor to confirm or cancel.</label>
-  <img src="https://i.imgur.com/PbNBCas.png" height="100%" width="100%" title="Appoint_pending">
-</p> 
-
-
-<p align="center">
-  <label style="font-weight: bold;">Patient's documents</label>
-  <img src="https://i.imgur.com/5NmJpCV.png" height="100%" width="100%" title="Pat_documents">
-</p> 
-
-
-<p align="center">
-  <label style="font-weight: bold;">Patient's bills</label>
-  <img src="https://i.imgur.com/rqLwCil.png" height="100%" width="100%" title="Pat_bills">
-</p> 
-
-
-# Doctors
-The doctors recieve view their schedules, appointments requests  & decide wether to accept or decline, a notifications is then sent to the patient asking for the
-appointment. In addition they can manage their patients information, add prescriptions, bills & important documents.
-The web application not only help with basic managment of the doctors schedules, but also helps with diagnosis. For now, it can help predict weather a patient might 
-have a cardiovascular diseas from relational data like age, sexe & cholesterol level, Also, classify chest x-ray images as images with pneumonia or not.
-Other machine learning &  deep learning models could be easly integrated with the web application.
-
-
-<p align="center">
-  <label style="font-weight: bold;">Appointment request</label>
-  <img src="https://i.imgur.com/xFk8rnT.png" height="100%" width="100%" title="Appoint_request">
-</p> 
-
-
-<p align="center">
-  <label style="font-weight: bold;">Patient information & documents from the doctors side</label>
-  <img src="https://i.imgur.com/s8pAADT.png" height="100%" width="100%" title="PatInfo">
-</p> 
-
-
-<p align="center">
-  <label style="font-weight: bold;">The empty calendar</label>
-  <img src="https://i.imgur.com/vas7ybr.png" height="100%" width="100%" title="Empty_calendar">
-</p> 
-
-# Admins
-Admins have total access to the web application and all the information, they can add, modify or archive any entity like doctors, nurses, patients, prescriptions..etc.
-They also have a simple yet elegant dashboard, giving them insight about diffrent aspects like the ratio of paid/unpaid bills, appointments state distribution, patient
-sex distribution also information about insurrance companies & accounts..etc.
-
-<p align="center">
-  <img src="https://i.imgur.com/8Gm2QrF.png" height="100%" width="100%" title="Dashboard1">
-</p> 
-<p align="center">
-  <img src="https://i.imgur.com/YMd2YoN.png" height="100%" width="100%" title="Dashboard2">
-</p> 
-
-
-
-
+Si deseas contribuir a este proyecto, por favor, sigue las mejores prácticas de contribución.
 
