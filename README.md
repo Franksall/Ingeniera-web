@@ -4,7 +4,7 @@ Este repositorio contiene un proyecto web para la gestión y asistencia de diagn
 
 ## Instrucciones para ejecutar el proyecto
 
-- Clona el repositorio: `git clone https://github.com/tu-usuario/tu-repositorio.git`
+- Clona el repositorio: `git clone https://github.com/Franksall/Ingeniera-web.git`
 - Ve al directorio del proyecto: `cd tu-repositorio`
 - Crea un entorno virtual: `python -m venv myvenv`
 - Activa el entorno virtual:
