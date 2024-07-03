@@ -1,5 +1,10 @@
 # Proyecto de Gestión de Clínica Médica
-
+- ClinicaPlus
+- 8vo Semestre
+- Ingenieria Web
+- Richard Escobedo
+- Frank Jhoseph Duarte Oruro
+- Semestre académico (2024 – I)
 Este repositorio contiene un proyecto web para la gestión y asistencia de diagnósticos en una clínica médica. Utiliza Django para su desarrollo.
 
 ## Instrucciones para ejecutar el proyecto
